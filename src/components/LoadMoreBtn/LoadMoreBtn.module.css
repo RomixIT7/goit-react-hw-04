@@ -1,0 +1,15 @@
+.loadMoreBtn {
+  display: block;
+  margin: 20px auto;
+  font-size: 20px;
+  padding: 8px 16px;
+  border: 3px solid rebeccapurple;
+  border-radius: 10px;
+  background-color: blueviolet;
+  color: azure;
+  box-shadow: inset -2px -2px 4px rebeccapurple;
+}
+
+.loadMoreBtn:hover {
+  background-color: darkviolet;
+}

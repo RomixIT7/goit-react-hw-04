@@ -1,0 +1,12 @@
+.nothingFound {
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 36px;
+  color: red;
+  text-align: center;
+  border: 3px dotted red;
+  border-radius: 10px;
+}

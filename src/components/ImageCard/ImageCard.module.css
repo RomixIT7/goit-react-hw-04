@@ -1,0 +1,24 @@
+.card {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  background-image: radial-gradient(blue, darkviolet);
+  border-radius: 15px;
+  color: lightcyan;
+  font-size: 20px;
+  box-shadow: inset -1px -1px 5px black;
+  transition: transform 250ms linear;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.cardImg {
+  border-radius: 15px;
+  width: 350px;
+  height: 250px;
+  object-fit: cover;
+}
