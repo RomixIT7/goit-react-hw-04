@@ -8,8 +8,13 @@ const ImageCard = ({ searchDataItem, openModal }) => {
     user: { name },
   } = searchDataItem;
   return (
-    <li className={css.card} onClick={() => openModal(searchDataItem)}>
-      <img className={css.cardImg} src={small} alt={alt_description} />
+    <li className={css.card}>
+      <img
+        className={css.cardImg}
+        src={small}
+        alt={alt_description}
+        onClick={() => openModal(searchDataItem)}
+      />
       <p>Author: {name}</p>
       <p>Likes: {likes}</p>
     </li>
